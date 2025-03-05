@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" type="module"></script>
+    <title>Bob's Burgers</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="header__img"
+        src="./assets/Bob's_Burgers_logo.svg.png"
+        alt="Bob's Burgers Logo"
+      />
+    </header>
+    <h1 class="title">Belchers and more</h1>
+    <main>
+      <div class="search-bar-container">
+        <form action="" class="search-bar" data-js="search-bar">
+          <input
+            name="query"
+            type="text"
+            class="search-bar__input"
+            placeholder="search characters"
+          />
+          <button class="search-bar__button">
+            <img class="search-bar__icon" src="./assets/search.svg" alt="" />
+          </button>
+        </form>
+      </div>
+      <ul class="card-container" data-js="card-container"></ul>
+      <div class="navigation-container" data-js="navigation-container"></div>
+    </main>
+  </body>
+</html>

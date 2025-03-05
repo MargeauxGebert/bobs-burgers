@@ -1,0 +1,22 @@
+.navigation-container {
+  height: 30px;
+  width: 100%;
+  display: grid;
+  position: fixed;
+  bottom: 0px;
+  grid-template-columns: 100px 1fr 100px;
+  background-color: var(--secondary-color);
+}
+
+.navigation__pagination {
+  display: grid;
+  place-items: center;
+}
+
+.navigation__button {
+  border: none;
+}
+
+.navigation__button:hover {
+  background-color: var(--louise-pink);
+}

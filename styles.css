@@ -1,0 +1,43 @@
+@import url(./components/SearchBar/SearchBar.css);
+@import url(./components/CharacterCard/CharacterCard.css);
+@import url(./components/Buttons/navigation.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --tina-blue: #98b7e3;
+  --louise-pink: #e774aa;
+  --louise-green: #9ba64a;
+  --bobs-yellow: #f2d028;
+  --primary-color: #1e2529;
+  --secondary-color: #e5e3e6;
+  --font-family: system-ui;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+.header__img {
+    display: flex;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  padding: 15px 0;
+}
