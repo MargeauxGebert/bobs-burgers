@@ -1,8 +1,15 @@
-.search-bar-container {
-  justify-content: center;
+.search-bar__parent {
+  display: flex;
+  justify-content: center; /* Horizontally center all children */
+  align-items: center;
   position: sticky;
-  top: 0px;
-  width: 100%;
+  top: 7rem;
+  background-color: #ffffff;
+  height: 4rem;
+}
+
+.search-bar-container {
+  width: 65%;
 }
 
 .search-bar {
