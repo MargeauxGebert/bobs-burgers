@@ -33,6 +33,7 @@
 .search-bar__input:focus::placeholder {
   color: var(--secondary-color);
 }
+
 .search-bar__icon {
   width: 20px;
 }
